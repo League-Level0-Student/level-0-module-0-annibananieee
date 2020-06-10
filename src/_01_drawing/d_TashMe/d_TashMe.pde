@@ -37,7 +37,7 @@ void draw() {
 background(face);
 // 7. DRAW MUSTACHE. Use the image() command to draw the mustache.  
 //                  The image command looks like this:
-image (mustache, 50,150);
+image (mustache, mouseX,mouseY);
 //    The numbers specify where to draw the mustache. They represent the top left corner of the image
 //    Run the program to see if the mustache is drawn on the face. Get this working before you go on.
 //    If you need to resize the image, do it in the setup() method after you loaded the image.
