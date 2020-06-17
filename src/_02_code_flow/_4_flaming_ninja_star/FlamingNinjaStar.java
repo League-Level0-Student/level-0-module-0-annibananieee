@@ -17,9 +17,9 @@ public class FlamingNinjaStar {
 		// Set the robot window size to 800 x 800
 		red.setWindowSize(800,800);
 		// Use a for loop to repeat all of the code below ONE time (we will change this later)
-		for(int i=0; i<1; i++) {
+		for(int i=0; i<25; i++) {
 			   // TURN RIGHT     Turn the robot 1/8 of a circle (hint: 360 degrees will turn a full circle)
-			red.turn(360);
+			red.turn(360/8);
 			
 			   // DRAW           Move the robot 64 pixels
 			red.move(64);
